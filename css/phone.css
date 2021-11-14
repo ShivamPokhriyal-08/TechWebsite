@@ -1,0 +1,86 @@
+/* Navigation menu */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 18px;
+}
+
+
+
+/* Home Section */
+#home{height:301px;
+    padding: 2px 35px;
+
+}
+
+#home::before{
+height: 400px;
+}
+
+#home{
+    font-size: 13px;
+}
+
+#home p{
+    font-size: 13px;
+    
+}
+
+
+
+
+/* Gadgets Section */
+#gadgets{
+    flex-direction: column;
+}
+
+#gadgets .box{border: 2px solid black;
+    padding:14px;
+    margin: 2px 0px;
+    border-radius: 28px;
+    width:85%;
+    margin-bottom: 20px;
+    
+}
+
+/* Brands Section */
+#brands{
+flex-wrap: wrap;
+}
+
+#brands img{
+    width: 120px;
+    padding: 5px;
+    height: auto; 
+    }
+
+ .brands-item{
+        padding: 12px;
+    }
+    
+/* Contact Us Section */
+#contact-box form{
+    width: 80%; 
+}
+
+
+
+/* Footer*/
+
+
+
+/* Utility classes */
+.h-primary{
+    font-size: 35px;
+}
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+    text-align: center;
+}
+
